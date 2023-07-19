@@ -1,6 +1,6 @@
 #!/bin/bash
 #defualt list
-defualt_list=/home/nasser/Desktop/nasser/Lists/final_list.txt
+defualt_list=/home/PATH/final_list.txt
 
 # checking domain is entered or not .
 if [ "$1" == "" ] || [ $# -gt 1 ]; then
