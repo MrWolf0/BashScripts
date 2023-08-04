@@ -78,13 +78,13 @@ echo -e "${cyan}[+] default method${green} POST${clear} do you want to change th
                            echo "post methode chosen"
                               sed -E 's/^\s*.*:\/\///g' alive_subdomains.txt >> dirsearch_content.txt
                                     for test in $(cat dirsearch_content.txt );do
-                                       dirsearch -e php.jsp,html,js,asp,aspx,py,cig,pl,cer -u $test -m POST --delay 30 -t 30 -w $defualt_list -r -x 404 -o $test.txt
+                                       dirsearch -e php,jsp,html,js,asp,aspx,py,cig,pl,cer -u $test -m POST --delay 30 -t 30 -w $defualt_list -r -x 404 -o $test.txt
                                     done
                 else
                            echo "get methode chosen"
                               sed -E 's/^\s*.*:\/\///g' alive_subdomains.txt >> dirsearch_content.txt
                                    for test in $(cat dirsearch_content.txt );do
-                                       dirsearch -e php.jsp,html,js,asp,aspx,py,cig,pl,cer -u $test -w $defualt_list -r -x 404 -o $test.txt
+                                       dirsearch -e php,jsp,html,js,asp,aspx,py,cig,pl,cer -u $test -w $defualt_list -r -x 404 -o $test.txt
                                    done     
                 fi
 rm alive_subdomains.txt 
