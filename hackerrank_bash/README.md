@@ -1,7 +1,7 @@
 # Bash scripting
 
 ## Introduction
-Comparing numbers is a fundamental concept in programming. It involves determining the relationship between two numeric values, such as whether one is greater than, less than, or equal to the other. In programming languages like Bash, comparisons are typically made using conditional statements.
+it is a powerful way to interact with the operating system through commands and scripts. Bash allows for automation of tasks, file manipulation, and system administration, making it an essential tool for developers and system administrators.
 
 ## Comparison Operators
 In Bash, the following comparison operators are used:
