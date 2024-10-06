@@ -1,4 +1,4 @@
-# Comparing Numbers
+# Bash scripting
 
 ## Introduction
 Comparing numbers is a fundamental concept in programming. It involves determining the relationship between two numeric values, such as whether one is greater than, less than, or equal to the other. In programming languages like Bash, comparisons are typically made using conditional statements.
